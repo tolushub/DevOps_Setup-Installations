@@ -36,6 +36,11 @@ Docker Compose comes pre-installed with Docker Desktop. If Docker Desktop is alr
    sudo chmod +x /usr/local/bin/docker-compose
    ```
 
+3. Create a User:
+   ```bash
+   usermod -aG docker ubuntu
+   ```
+
 3. Verify the installation:
 
    ```bash
